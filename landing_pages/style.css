@@ -1,0 +1,152 @@
+/* Basic styles */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header */
+  header {
+    background-color: #f0f0f0;
+    padding: 20px;
+    display: flex; /* Use flexbox for horizontal alignment */
+    justify-content: space-between; /* Space items evenly */
+    align-items: center; /* Align vertically */
+  }
+  
+  header img {
+    width: 150px; /* Adjust logo size as needed */
+  }
+  
+
+  
+  header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header nav li {
+    display: inline-block; /* Display horizontally next to each other */
+    margin-right: 20px; /* Add spacing between links */
+  }
+  
+  header nav li:last-child {
+    margin-right: 0; /* Remove margin from last link */
+  }
+  
+  header nav a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  header nav a:hover {
+    color: #000; /* Change color on hover */
+  }
+  
+  /* Main Content */
+  main {
+    padding: 50px 0;
+  }
+  
+  /* Hero Section */
+  .hero {
+    display: flex; /* Layout hero content in two columns */
+    justify-content: space-between; /* Space hero content and image */
+    align-items: center; /* Align vertically */
+    margin-bottom: 50px;
+  }
+  
+  .hero-content {
+    width: 50%; /* Adjust content width for responsiveness */
+  }
+  
+  .hero h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 1.2em;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  .hero button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .hero button:hover {
+    background-color: #0062cc;
+  }
+  
+  .hero img {
+    width: 50%; /* Adjust image width for responsiveness */
+    object-fit: cover; /* Maintain image aspect ratio */
+  }
+  
+  /* Features Section */
+  .features {
+    text-align: center; /* Center text for features */
+    margin-bottom: 50px;
+  }
+  
+  .features h2 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+  }
+  
+  .features ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .features li {
+    display: inline-block;
+    margin: 20px;
+    text-align: left; /* Align feature text to the left */
+  }
+  
+  .features li img {
+    width: 80px; /* Adjust icon size as needed */
+    margin-bottom: 10px;
+  }
+  
+  /* Benefits Section */
+  .benefits {
+    display: flex; /* Use flexbox for side-by-side benefit cards */
+    flex-wrap: wrap; /* Wrap cards if screen size is too small */
+    justify-content: space-between; /* Space cards evenly */
+    margin-bottom: 50px;
+  }
+  
+  .benefit-card {
+    width: calc(33% - 20px); /* Calculate card width based on number of cards */
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .benefit-card h3 {
+    font-size: 1.4em;
+    margin-bottom: 10px;
+  }
+  
+  /* Call to Action Section */
+  .call-to-action {
+    text-align: center;
+  }
+  
+  .call-to-action h2 
+  {
+    font-size: 1.6em
+  }  
+    
